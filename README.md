@@ -1,5 +1,5 @@
 
-# Swift is like Kotlin
+# Swift is like C#
 
 Page: https://myquay.github.io/swift-is-like-c-sharp/
 
