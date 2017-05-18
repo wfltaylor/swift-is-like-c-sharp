@@ -2,7 +2,7 @@ doctype
 
 html
   head
-    title "Swift is like Kotlin"
+    title "Swift is like C#"
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
     link (:rel stylesheet) (:href css/highlightjs-github.css)
@@ -11,94 +11,94 @@ html
 
   body
     a (:target _blank)
-      :href https://github.com/Nilhcem/swift-is-like-kotlin
+      :href https://github.com/myquay/swift-is-like-kotlin
       img#fork-me (:src http://nilhcem.github.io/swift-is-like-kotlin/fork-me.png)
     #note
-      = "Swift is like Kotlin"
+      = "Swift is like C#"
 
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/hello-world.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/hello-world.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/hello-world.cs)
       .case (.name "Variables And Constants") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/variables-and-constants.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/variables-and-constants.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/variables-and-constants.cs)
       .case (.name "Explicit Types") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/explicit-types.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/explicit-types.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/explicit-types.cs)
       .case (.name "Type Coercion") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/type-coercion.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/type-coercion.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/type-coercion.cs)
       .case (.name "String Interpolation") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/string-interpolation.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/string-interpolation.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/string-interpolation.cs)
       .case (.name "Range Operator") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/range-operator.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/range-operator.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/range-operator.cs)
       .case (.name "Inclusive Range Operator") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/inclusive-range-operator.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/inclusive-range-operator.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/inclusive-range-operator.cs)
 
     .section
       .title BASICS
       .case (.name "Arrays") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/arrays.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/arrays.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/arrays.cs)
       .case (.name "Maps") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/maps.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/maps.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/maps.cs)
       .case (.name "Empty Collections") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/empty-collections.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/empty-collections.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/empty-collections.cs)
 
     .section
       .title FUNCTIONS
       .case (.name "Functions") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/functions.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/functions.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/functions.cs)
       .case (.name "Tuple Return") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/tuple-return.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/tuple-return.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/tuple-return.cs)
       .case (.name "Variable Number Of Arguments") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/variable-number-of-arguments.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/variable-number-of-arguments.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/variable-number-of-arguments.cs)
       .case (.name "Function Type") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/function-type.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/function-type.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/function-type.cs)
       .case (.name "Map") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/map.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/map.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/map.cs)
       .case (.name "Sort") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/sort.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/sort.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/sort.cs)
       .case (.name "Named Arguments") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/named-arguments.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/named-arguments.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/named-arguments.cs)
 
     .section
       .title CLASSES
       .case (.name "Declaration") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/declaration.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/declaration.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/declaration.cs)
       .case (.name "Usage") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/usage.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/usage.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/usage.cs)
       .case (.name "Subclass") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/subclass.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/subclass.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/subclass.cs)
       .case (.name "Checking Type") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/checking-type.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/checking-type.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/checking-type.cs)
       .case (.name "Pattern Matching") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/pattern-matching.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/pattern-matching.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/pattern-matching.cs)
       .case (.name "Downcasting") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/downcasting.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/downcasting.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/downcasting.cs)
       .case (.name "Protocol") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/protocol.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/protocol.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/protocol.cs)
       .case (.name "Extensions") $ .pair
         .card (.lang Swift) $ pre.code $ code (@insert ../code/extensions.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/extensions.kt)
+        .card (.lang C#) $ pre.code $ code (@insert ../code/extensions.cs)
